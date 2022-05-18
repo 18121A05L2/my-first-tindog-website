@@ -1,0 +1,169 @@
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+/* headings */
+h1{
+
+  font-size: 2.7rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-size: 1.3rem;
+}
+
+h2{
+  font-size: 2rem;
+}
+
+/* containers */
+.container-fluid{
+  padding:7% 15%;
+}
+
+/* sections */
+.coloured-section{
+  background-color:#ff4c68 ;
+  color:white;
+}
+
+.white-section {
+  background-color: white
+}
+/* navigation bar */
+
+nav{
+  margin-bottom: 2rem;
+}
+
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
+.nav-item{
+  padding: 0 15px;
+  font-size: 1.2rem;
+  font-family: "Montserrat-light"
+}
+
+
+/* title section */
+
+.fa-brands{
+  margin-right: 5px;
+}
+
+.download-button{
+  margin : 5% 3% 5% 0;
+}
+
+.small-text{
+  font-size: 60%;
+  font-weight: 100;
+  color: #8f8f8f;
+  font-family: sans-serif;
+
+}
+
+#iphone-image {
+  height: 400px;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* features section */
+
+.feature-icons{
+  color: #ef8172;
+  font-size: 2rem;
+  padding: 10%;
+}
+.feature-icons:hover{
+    color: #ff4c68;
+}
+
+#features{
+  z-index: 1;
+
+  position: relative;
+
+}
+
+/* testimonials-section */
+#testimonials{
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width:20%;
+  border-radius: 100%;
+  padding:3%;
+}
+
+
+/* press section */
+#press{
+  background-color: #ef8172;
+  padding-bottom: 10px;
+}
+
+.press-images{
+  width: 19%;
+  padding-bottom: 3%;
+  padding: 20px;
+}
+
+/* pricing section */
+
+#pricing{
+  padding: 10%;
+}
+
+.pricing-col{
+  padding:3%;
+}
+
+
+/* call to action section */
+#cta{
+  height:20rem;
+
+}
+
+.cta-header{
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+/* footer section */
+
+.footer-brands{
+  padding:1rem 1rem;
+}
+
+.copyright{
+  font-size: 0.7rem;
+  color: #8f8f8f;
+  font-family: sans-serif;
+}
+
+
+
+
+@media (max-width:1000px){
+  #iphone-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
